@@ -9,7 +9,7 @@ export function renderTodos(collection) {
     	<li>
 	      ${item.label}
         <button type="button" data-todo='${JSON.stringify(item)}'>
-          Delete
+          Delete2
         </button>
       </li>
      `;
